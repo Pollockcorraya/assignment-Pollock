@@ -138,3 +138,36 @@ span {
 
     color: #6A59A5;
 }
+/* Blog CSS */
+.blog .card img {
+    width: 100%;
+    height: 100%;
+}
+.blog .card-title {
+    font-size: 1rem;
+}
+.card-body small {
+    color: #868686;
+}
+
+.form {
+    margin: 0 auto;
+}
+.form input {
+    width: 49%;
+    padding: 5px 10px;
+}
+.form ::placeholder {
+    text-transform: capitalize;
+}
+.form textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+}
+.form-btn {
+    border: 1px solid #6A59A5;
+}
+.form-btn:hover {
+    border: 1px solid #6A59A5;
+}
