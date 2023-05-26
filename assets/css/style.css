@@ -1,0 +1,140 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Montserrat+Alternates:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Common CSS */
+section {
+    padding-top: 8%;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #6A59A5;
+}
+/* Header CSS */
+header {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(116,124,171,1) 87%);
+    padding-bottom: 5%;
+}
+.logo a {
+    font-family: 'Chewy', cursive;
+    color: aliceblue;
+}
+.navbar-nav li {
+    margin-right: 10px;
+}
+.navbar-nav li:last-child {
+    margin-right: 0;
+}
+.navbar-nav li a {
+    padding: 5px 10px;
+    color: aliceblue;
+}
+.navbar-nav li:hover {
+    background-color: #6A59A5;
+    color: aliceblue;
+}
+.header-content h1 {
+    font-size: 4.5rem;
+    color: #5D5C61;
+    font-family: 'Chewy', cursive;
+}
+.header-content p {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+}
+.header-btn {
+    background-color: #6A59A5;
+    border-radius: 50px; 
+    color: aliceblue;
+}
+.header-btn:hover {
+    background-color: #6A59A5;
+}
+/* About CSS */
+.about-btn {
+    border: 1px solid #6A59A5;
+    border-radius: 50px;
+    color: #6A59A5;
+}
+
+/* Service CSS */
+.item {
+    padding: 70px 0;
+}
+.item-img img {
+    width: 40px;
+}
+.item h6 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #6A59A5;
+}
+/* Portfolio CSS */
+.portfolio-img img {
+    width: 100%;
+}
+.card img {
+    width: 75px;  
+}
+.card-title {
+    font-size: 2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #6A59A5;
+}
+.card-body li {
+    margin: 10px 0;
+}
+span {
+    font-size: 30px;
+}
+.price-btn {
+    background-color: #6A59A5;
+    color: #f0f8ff;
+}
+.price-btn:hover {
+    background-color: #6A59A5;
+}
+.announcement {
+    background-color: #6A59A5;
+}
+.announcement-text h6 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #fff;
+}
+.announcement-text p {
+    color: #f0f8ff;
+}
+.announcement-btn {
+    background-color: #fff;
+    color: #000;
+}
+.announcement-btn:hover {
+    background-color: #fff;
+}
+.testimonial-img {
+    max-width: 45px;
+    min-height: 45px;
+    z-index: 999;
+}
+.testimonial-img img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+.testimonial-card-text {
+    text-align: left;
+    padding:20px 20px 20px 60px;
+    border: 1px solid #dee2e6;
+}
+.testimonial-card-text h6 {
+    font-family: 'Montserrat Alternates', sans-serif;
+
+    color: #6A59A5;
+}
