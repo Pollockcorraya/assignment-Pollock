@@ -8,7 +8,7 @@
 }
 /* Common CSS */
 section {
-    padding-top: 8%;
+    padding-top: 9%;
 }
 
 h2 {
@@ -156,6 +156,7 @@ span {
 .form input {
     width: 49%;
     padding: 5px 10px;
+    border: 1px solid #E4E4E4;
 }
 .form ::placeholder {
     text-transform: capitalize;
@@ -164,10 +165,31 @@ span {
     margin-top: 20px;
     width: 100%;
     padding: 10px;
+    border: 1px solid #E4E4E4;
 }
 .form-btn {
     border: 1px solid #6A59A5;
+    color: #6A59A5;
 }
 .form-btn:hover {
     border: 1px solid #6A59A5;
+}
+
+/* Footer CSS */
+.footer {
+    border-top:1px solid #E4E4E4;
+    margin-top: 7%;
+}
+.social-icon li a {
+    color:#757778;
+    border: 1px solid #757778;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.social-icon li {
+    margin: 0 10px;
 }
