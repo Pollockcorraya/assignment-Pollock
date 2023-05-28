@@ -79,6 +79,8 @@ header {
 .portfolio-img img {
     width: 100%;
 }
+
+/* Pricing CSS */
 .card img {
     width: 75px;  
 }
@@ -100,6 +102,8 @@ span {
 .price-btn:hover {
     background-color: #6A59A5;
 }
+
+/* Announcement CSS */
 .announcement {
     background-color: #6A59A5;
 }
@@ -113,10 +117,13 @@ span {
 .announcement-btn {
     background-color: #fff;
     color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .announcement-btn:hover {
     background-color: #fff;
 }
+
+/* Testimonial CSS */
 .testimonial-img {
     max-width: 45px;
     min-height: 45px;
@@ -149,13 +156,21 @@ span {
 .card-body small {
     color: #868686;
 }
-
+.blog a {
+    color: #6A59A5; 
+}
+.angle {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #6A59A5;
+}
+/* Contact CSS */
 .form {
     margin: 0 auto;
 }
-.form input {
+.name input{
     width: 49%;
-    padding: 5px 10px;
+    padding: 7px 10px;
     border: 1px solid #E4E4E4;
 }
 .form ::placeholder {
@@ -180,9 +195,12 @@ span {
     border-top:1px solid #E4E4E4;
     margin-top: 7%;
 }
+.footer p {
+    color:#757778;  
+}
 .social-icon li a {
     color:#757778;
-    border: 1px solid #757778;
+    border: 2px solid #757778;
     width: 30px;
     height: 30px;
     display: flex;
